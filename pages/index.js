@@ -98,8 +98,39 @@ export default function Home() {
       {/* Content */}
       <div className="w-full min-h-screen">
         <h1 className="text-2xl font-bold tracking-widest uppercase text-center py-8">
-          Colorization Framework
+          WIRELESS CAPSULE ENDOSCOPY COLORIZATION FRAMEWORK
         </h1>
+        <div className="flex sm:justify-center">
+          <p className="text-xs text-justify  sm:w-4/5 text-gray-600 sm:px-0 px-8">
+            Wireless Capsule Endoscopy (WCE) is the preferred technology for the
+            diagnosis and evaluation of small bowel disorders. The concluding
+            Wireless Capsule Endoscopy (WCE) video comprises as many as 150,000
+            images. Within this extensive collection of images, the majority are
+            classified as normal, with only a singular or a few frames
+            identified as pathological. The transmission of such a substantial
+            volume of data from the WCE is constrained by the device&#39;s
+            limited battery capacity. The primary objective of this study is to
+            minimize the computational load by shifting the maximum of
+            computations at the decoder side while reducing the information
+            transmitted from the encoder. Our project presents three primary
+            contributions. First, a new smart compression system leveraging deep
+            learning is proposed for the WCE system. This system aims to
+            significantly decrease the transmission of unnecessary data by
+            sending Low-Resolution (LR) luma images, thereby conserving energy
+            in the WCE device. Second, a new colorization model named
+            EndoColorGAN diffusion-based is implemented to reconstruct the
+            colors of WCE images. To expedite the diagnostic review of the WCE
+            video, we present, on this page, a visualization demo designed for
+            fast and smart summarization. At the physician’s workstation, and
+            before the colorization process is done, the received video consists
+            of Super Resolution Luma normal images and RGB pathological images.
+            We have implemented an algorithm that enables physicians to
+            visualize the pathological sequence, which constitutes the primary
+            focus, before proceeding to colorize the normal images. This
+            simplified process not only enhances efficiency but also provides
+            critical information directly to the physician in a short time.
+          </p>
+        </div>
         <Header
           loading={loading}
           isColorized={isColorized}

@@ -130,6 +130,12 @@ export default function Home() {
             simplified process not only enhances efficiency but also provides
             critical information directly to the physician in a short time.
           </p>
+          <p className="text-xs text-center  sm:w-4/5 text-gray-600 sm:px-0 px-8">
+          Abderrahmane Salmi, Wei Zhang, and Feng Jiang
+          </p>
+          <p className="text-xs text-center  sm:w-4/5 text-gray-600 sm:px-0 px-8">
+          A.I &amp; Human-Machine Engineering Lab
+          </p>
         </div>
         <Header
           loading={loading}
